@@ -14,7 +14,7 @@ Git
 
 ***Instructions to setup***
 #Clone repository
-1. In your terminal run "git clone <repository-url>"
+1. In your terminal run "git clone https://github.com/sohmb01/customer-address-management.git"
 2. Once cloned, run "cd customer-address-management"
 
 #Create Database Schema
