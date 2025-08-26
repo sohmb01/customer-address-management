@@ -1,0 +1,50 @@
+.app-container {
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.grid-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.grid-item {
+  padding: 16px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.grid-item:hover {
+  transform: translateY(-5px);
+}
+
+/* Responsive behavior */
+@media (max-width: 600px) {
+  .app-container {
+    padding: 10px;
+  }
+  
+  .grid-item {
+    padding: 8px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .grid-container {
+    max-width: 1200px;
+  }
+}
+
+/* Optional: Add smooth transitions for grid items */
+.MuiGrid-item {
+  transition: all 0.3s ease;
+}
+
+/* Optional: Add a custom card style for grid content */
+.grid-card {
+  background: white;
+  border-radius: 8px;
+  padding: 16px;
+  height: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
